@@ -5,35 +5,28 @@ import ButtonOutlined from "../Components/ButtonOutlined";
 
 function HomeView() {
   return (
-    <section className="w-full min-h-svh h-fit border-2 px-[50px] " >
-      <Navbar></Navbar>
-      <div className="flex w-full h-svh"  data-aos="fade-up" id="content-Container">
-        <div className="w-[50%] h-svh flex flex-col  justify-center">
-          <h1 className=" text-[45px] text-primary font-Lexand font-bold">
+    <section className="w-full min-h-screen h-fit border-2 px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32">
+      <Navbar />
+      <div className="flex flex-col lg:flex-row w-full h-screen" data-aos="fade-up" id="content-Container">
+        <div className="w-full lg:w-1/2 h-screen flex flex-col justify-center">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-primary font-Lexand font-bold">
             Introduce your product quickly & effectively
           </h1>
-          <p className="text-[18px] text-secondary ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-            fuga laudantium consequatur! Quos libero, facere ipsa placeat
-            deserunt ipsam repellat. Ab enim suscipit at eos quaerat quisquam
-            error fuga eum? Eum blanditiis cum, beatae quaerat vel ad soluta
-            animi aliquam reprehenderit cupiditate dolore alias eligendi quis
-            ipsam. Nulla ipsa sint dolorem repellendus, facere perspiciatis.
-            Tempore blanditiis enim nihil culpa quisquam!
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-secondary mt-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias fuga laudantium consequatur! Quos libero, facere ipsa placeat deserunt ipsam repellat. Ab enim suscipit at eos quaerat quisquam error fuga eum? Eum blanditiis cum, beatae quaerat vel ad soluta animi aliquam reprehenderit cupiditate dolore alias eligendi quis ipsam. Nulla ipsa sint dolorem repellendus, facere perspiciatis. Tempore blanditiis enim nihil culpa quisquam!
           </p>
-          <div className="flex gap-3 mt-[60px]">
-            <ButtonFilled label="Purchase UI kit"></ButtonFilled>
-            <ButtonOutlined label="Learn more"></ButtonOutlined>
+          <div className="flex gap-3 mt-6">
+            <ButtonFilled label="Purchase UI kit" />
+            <ButtonOutlined label="Learn more" />
           </div>
         </div>
-
-        <div className="w-[50%] h-svh flex flex-col items-center justify-center">
+        <div className="w-full lg:w-1/2 h-screen flex items-center justify-center mt-8 lg:mt-0">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="600px"
             height="422.32217"
             viewBox="0 0 993.73022 422.32217"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
           >
             <path
               d="M608.03796,422.32217h-221.40814c-6.26141,0-11.35526-5.0943-11.35526-11.35526V11.35525c0-6.26094,5.09384-11.35525,11.35526-11.35525h221.40814c6.26141,0,11.35522,5.09431,11.35522,11.35525V410.96692c0,6.26093-5.09381,11.35526-11.35522,11.35526ZM473.16803,1.89625c-53.01779,0-95.99719,42.97942-95.99719,95.99722V410.96692c0,5.22406,4.23495,9.45901,9.45901,9.45901h221.40811c5.22406,0,9.45898-4.23492,9.45898-9.45898V11.35525c0-5.22407-4.23492-9.45901-9.45898-9.45901h-134.86993Z"

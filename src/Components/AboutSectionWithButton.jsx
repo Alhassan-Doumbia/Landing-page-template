@@ -4,18 +4,18 @@ import ButtonFilled from "./ButtonFilled";
 function AboutSectionWithButton({ children }) {
   return (
     <>
-      <div className="flex w-full h-fit" id="content-Container">
+      <div className="flex flex-col md:flex-row w-full h-fit" id="content-Container">
         <div
           id="illustration"
-          className="w-[50%] h-fit flex flex-col items-center justify-start"
+          className="w-full md:w-1/2 h-fit flex flex-col items-center justify-start"
         >
           {children}
         </div>
-        <div className="w-[50%]  flex flex-col justify-center gap-6">
-          <h1 className=" text-[35px] text-primary font-Lexand font-bold">
+        <div className="w-full md:w-1/2 flex flex-col justify-center gap-6 p-4 md:p-8">
+          <h1 className="text-2xl md:text-4xl text-primary font-Lexand font-bold">
             Light, Fast & Powerful
           </h1>
-          <p className="text-[18px] text-secondary ">
+          <p className="text-base md:text-lg text-secondary">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
             fuga laudantium consequatur! Quos libero, facere ipsa placeat
             deserunt ipsam repellat. Ab enim suscipit at eos quaerat quisquam
