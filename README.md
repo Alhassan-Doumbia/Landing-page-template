@@ -50,3 +50,11 @@
 - **Subtitle**: Lexend
 
 
+### Stack 
+
+- React.js
+- Vite.js
+- TailwindCSS
+- react-animate-on-scroll
+
+c'est du pur frontend lol !!!
